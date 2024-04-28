@@ -83,7 +83,7 @@ struct Story {
 }
 
 struct Culprit {
-    let image : String
-    let label : String
+//    let image : String
+    let uuid : String
 }
 

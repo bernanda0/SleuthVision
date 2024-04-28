@@ -27,6 +27,16 @@
 		9934FD722BDE20850046E71C /* ChallengeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD712BDE20850046E71C /* ChallengeVM.swift */; };
 		9934FD742BDE24E20046E71C /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD732BDE24E20046E71C /* Detector.swift */; };
 		9934FD762BDE28080046E71C /* ChallengeVM+Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD752BDE28080046E71C /* ChallengeVM+Detector.swift */; };
+		9934FD782BDE560A0046E71C /* ObjectScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD772BDE560A0046E71C /* ObjectScanController.swift */; };
+		9934FD7A2BDE56640046E71C /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD792BDE56640046E71C /* ImagePredictor.swift */; };
+		9934FD7E2BDE56ED0046E71C /* CulpritClass.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD7D2BDE56ED0046E71C /* CulpritClass.mlmodel */; };
+		9934FD842BDE59060046E71C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD832BDE57F00046E71C /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		9934FD862BDE59660046E71C /* ObjectScanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD852BDE59660046E71C /* ObjectScanExtension.swift */; };
+		9934FD882BDE59E00046E71C /* ObjectScanViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD872BDE59E00046E71C /* ObjectScanViewCoordinator.swift */; };
+		9934FD8A2BDE5B3A0046E71C /* ObjectScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD892BDE5B3A0046E71C /* ObjectScanView.swift */; };
+		9934FD8C2BDE6EDA0046E71C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD8B2BDE6EDA0046E71C /* MobileNet.mlmodel */; };
+		9934FD8E2BDE92490046E71C /* MysteryObjectPrediction.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD8D2BDE92490046E71C /* MysteryObjectPrediction.mlmodel */; };
+		9934FD902BDEB7620046E71C /* ImageRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934FD8F2BDEB7620046E71C /* ImageRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +61,16 @@
 		9934FD712BDE20850046E71C /* ChallengeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeVM.swift; sourceTree = "<group>"; };
 		9934FD732BDE24E20046E71C /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
 		9934FD752BDE28080046E71C /* ChallengeVM+Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengeVM+Detector.swift"; sourceTree = "<group>"; };
+		9934FD772BDE560A0046E71C /* ObjectScanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectScanController.swift; sourceTree = "<group>"; };
+		9934FD792BDE56640046E71C /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		9934FD7D2BDE56ED0046E71C /* CulpritClass.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CulpritClass.mlmodel; path = ../../../../ML/CulpritClass.mlmodel; sourceTree = "<group>"; };
+		9934FD832BDE57F00046E71C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		9934FD852BDE59660046E71C /* ObjectScanExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectScanExtension.swift; sourceTree = "<group>"; };
+		9934FD872BDE59E00046E71C /* ObjectScanViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectScanViewCoordinator.swift; sourceTree = "<group>"; };
+		9934FD892BDE5B3A0046E71C /* ObjectScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectScanView.swift; sourceTree = "<group>"; };
+		9934FD8B2BDE6EDA0046E71C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = "../../../../../Downloads/ClassifyingImagesWithVisionAndCoreML 2/Models/MobileNet.mlmodel"; sourceTree = "<group>"; };
+		9934FD8D2BDE92490046E71C /* MysteryObjectPrediction.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MysteryObjectPrediction.mlmodel; path = ../../../../ML/MysteryObject/MysteryObjectPrediction.mlmodel; sourceTree = "<group>"; };
+		9934FD8F2BDEB7620046E71C /* ImageRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,9 @@
 			children = (
 				9934FD6E2BDE0DBA0046E71C /* NotUsed */,
 				9934FD562BDD38580046E71C /* yolov9c.mlpackage */,
+				9934FD7D2BDE56ED0046E71C /* CulpritClass.mlmodel */,
+				9934FD8B2BDE6EDA0046E71C /* MobileNet.mlmodel */,
+				9934FD8D2BDE92490046E71C /* MysteryObjectPrediction.mlmodel */,
 				9934FD362BDD0DB60046E71C /* SleuthVisionApp.swift */,
 				9934FD452BDD0E040046E71C /* Model */,
 				9934FD442BDD0DCB0046E71C /* View */,
@@ -107,11 +130,12 @@
 		9934FD442BDD0DCB0046E71C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9934FD622BDD60370046E71C /* CulpritScanView.swift */,
 				9934FD382BDD0DB60046E71C /* GameSceneView.swift */,
 				9934FD4D2BDD1B2E0046E71C /* ChallengeView.swift */,
 				9934FD542BDD32B80046E71C /* ChallengeViewController.swift */,
 				9934FD552BDD32BD0046E71C /* ChallengeViewDetector.swift */,
-				9934FD622BDD60370046E71C /* CulpritScanView.swift */,
+				9934FD892BDE5B3A0046E71C /* ObjectScanView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +147,10 @@
 				9934FD6F2BDE1FDE0046E71C /* GameProgress.swift */,
 				9934FD4B2BDD0E690046E71C /* GameInstance.swift */,
 				9934FD6A2BDE00660046E71C /* ChallengeViewCoordinator.swift */,
+				9934FD872BDE59E00046E71C /* ObjectScanViewCoordinator.swift */,
+				9934FD8F2BDEB7620046E71C /* ImageRecognizer.swift */,
+				9934FD792BDE56640046E71C /* ImagePredictor.swift */,
+				9934FD832BDE57F00046E71C /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,10 +158,6 @@
 		9934FD462BDD0E0B0046E71C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				9934FD472BDD0E4E0046E71C /* GameSceneVM.swift */,
-				9934FD712BDE20850046E71C /* ChallengeVM.swift */,
-				9934FD752BDE28080046E71C /* ChallengeVM+Detector.swift */,
-				9934FD732BDE24E20046E71C /* Detector.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -149,6 +173,12 @@
 		9934FD6E2BDE0DBA0046E71C /* NotUsed */ = {
 			isa = PBXGroup;
 			children = (
+				9934FD772BDE560A0046E71C /* ObjectScanController.swift */,
+				9934FD852BDE59660046E71C /* ObjectScanExtension.swift */,
+				9934FD472BDD0E4E0046E71C /* GameSceneVM.swift */,
+				9934FD732BDE24E20046E71C /* Detector.swift */,
+				9934FD712BDE20850046E71C /* ChallengeVM.swift */,
+				9934FD752BDE28080046E71C /* ChallengeVM+Detector.swift */,
 				9934FD602BDD60290046E71C /* aObjectScanView.swift */,
 				9934FD682BDDFB160046E71C /* aObjectScanViewController.swift */,
 			);
@@ -229,20 +259,30 @@
 				9934FD672BDD66360046E71C /* ScreenOrientationDelegate.swift in Sources */,
 				9934FD722BDE20850046E71C /* ChallengeVM.swift in Sources */,
 				9934FD742BDE24E20046E71C /* Detector.swift in Sources */,
+				9934FD8C2BDE6EDA0046E71C /* MobileNet.mlmodel in Sources */,
 				9934FD632BDD60370046E71C /* CulpritScanView.swift in Sources */,
 				9934FD702BDE1FDE0046E71C /* GameProgress.swift in Sources */,
 				9934FD392BDD0DB60046E71C /* GameSceneView.swift in Sources */,
+				9934FD8E2BDE92490046E71C /* MysteryObjectPrediction.mlmodel in Sources */,
+				9934FD782BDE560A0046E71C /* ObjectScanController.swift in Sources */,
 				9934FD572BDD38580046E71C /* yolov9c.mlpackage in Sources */,
 				9934FD762BDE28080046E71C /* ChallengeVM+Detector.swift in Sources */,
+				9934FD842BDE59060046E71C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				9934FD692BDDFB160046E71C /* aObjectScanViewController.swift in Sources */,
 				9934FD4E2BDD1B2E0046E71C /* ChallengeView.swift in Sources */,
 				9934FD482BDD0E4E0046E71C /* GameSceneVM.swift in Sources */,
+				9934FD862BDE59660046E71C /* ObjectScanExtension.swift in Sources */,
 				9934FD6B2BDE00660046E71C /* ChallengeViewCoordinator.swift in Sources */,
+				9934FD7A2BDE56640046E71C /* ImagePredictor.swift in Sources */,
 				9934FD372BDD0DB60046E71C /* SleuthVisionApp.swift in Sources */,
+				9934FD8A2BDE5B3A0046E71C /* ObjectScanView.swift in Sources */,
 				9934FD5E2BDD39840046E71C /* ChallengeViewController.swift in Sources */,
 				9934FD4A2BDD0E5C0046E71C /* Game.swift in Sources */,
 				9934FD612BDD60290046E71C /* aObjectScanView.swift in Sources */,
+				9934FD882BDE59E00046E71C /* ObjectScanViewCoordinator.swift in Sources */,
 				9934FD5F2BDD39EA0046E71C /* ChallengeViewDetector.swift in Sources */,
+				9934FD7E2BDE56ED0046E71C /* CulpritClass.mlmodel in Sources */,
+				9934FD902BDEB7620046E71C /* ImageRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,9 +423,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,9 +454,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

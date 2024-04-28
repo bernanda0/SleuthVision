@@ -29,10 +29,10 @@ let pantry = Location(id: 1, name: "Pantry")
 let pantryItems = [
     Item(label: "cup", hints: ["⚙️", "☕️"], _class: "coffeeMachine"),
     Item(label: "spoon", hints: ["🥇"], _class: "goldenSpoon"),
-    Item(label: "apple", hints: ["⌚️", "🟦"], _class: "appleWatchBlue")
+    Item(label: "apple", hints: ["⏳", "🟦"], _class: "appleWatch")
 ]
 
-let culprit = Culprit(image: "culprit.jpg", label: "The XX")
+let culprit = Culprit(uuid: "cff3e5c5-057d-11ef-86d3-0242ac120002")
 
 let game0 = Game(
     id: 0,
